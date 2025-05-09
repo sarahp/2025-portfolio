@@ -47,7 +47,7 @@ export default function ContactPage() {
 
             <div>
               <h3 className="text-lg font-medium mb-2">Location</h3>
-              <p className="text-muted-foreground">San Francisco, CA</p>
+              <p className="text-muted-foreground">Philadelphia, PA</p>
             </div>
           </div>
         </div>
