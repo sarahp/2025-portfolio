@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Frontend Enterprise Walkthroughs",
-  description: "Detailed YouTube walkthroughs of enterprise frontend development",
+  description: "Quick YouTube walkthroughs of enterprise frontend development",
     generator: 'v0.dev'
 }
 
@@ -52,7 +52,7 @@ export default function RootLayout({
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm font-medium text-primary hover:underline"
-                  >YouTube
+                  >YouTube Code Playlist
                   </Link>
                 </div>
               </div>

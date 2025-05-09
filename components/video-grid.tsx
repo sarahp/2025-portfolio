@@ -3,51 +3,31 @@ import { YouTubeEmbed } from "./youtube-embed"
 const videos = [
   {
     id: "video1",
-    title: "Building a Scalable Design System in React",
-    description: "Learn how to create and implement a design system for large enterprise applications.",
-    youtubeId: "dQw4w9WgXcQ", // Replace with actual YouTube ID
-    date: "May 15, 2023",
-    tags: ["React", "Design Systems"],
+    title: "Building a To Do App with React",
+    description: "A basic To Do app built with React, Next.js, and Tailwind CSS.",
+    youtubeId: "4WQy931nKjw", // Replace with actual YouTube ID
+    tags: ["React", "To Do App", "Frontend Engineering", "Code Example"],
   },
   {
     id: "video2",
-    title: "State Management Patterns for Enterprise Apps",
-    description: "Advanced state management techniques for complex React applications.",
-    youtubeId: "dQw4w9WgXcQ", // Replace with actual YouTube ID
-    date: "June 22, 2023",
-    tags: ["React", "State Management"],
+    title: "Tufts Medicine Card Walkthrough",
+    description: "A walkthrough of the Tufts Medicine Basic Card component.",
+    youtubeId: "XOrown_U1sI", // Replace with actual YouTube ID
+    tags: ["React", "Tufts Medicine", "Design System", "Frontend Engineering", "Component Library"],
   },
   {
     id: "video3",
-    title: "Performance Optimization in Next.js",
-    description: "Strategies to improve loading and runtime performance in Next.js applications.",
-    youtubeId: "dQw4w9WgXcQ", // Replace with actual YouTube ID
-    date: "July 10, 2023",
-    tags: ["Next.js", "Performance"],
+    title: "CHOP Map Component Walkthrough",
+    description: "A walkthrough of the CHOP Map component.",
+    youtubeId: "byLllqyAOq4", // Replace with actual YouTube ID
+    tags: ["React", "CHOP", "Design System", "Frontend Engineering", "Component Library"],
   },
   {
     id: "video4",
-    title: "Building Accessible Enterprise Applications",
-    description: "Implementing accessibility best practices in large-scale React applications.",
-    youtubeId: "dQw4w9WgXcQ", // Replace with actual YouTube ID
-    date: "August 5, 2023",
-    tags: ["Accessibility", "React"],
-  },
-  {
-    id: "video5",
-    title: "Micro-Frontend Architecture Explained",
-    description: "A deep dive into implementing micro-frontends for enterprise applications.",
-    youtubeId: "dQw4w9WgXcQ", // Replace with actual YouTube ID
-    date: "September 18, 2023",
-    tags: ["Architecture", "Micro-Frontends"],
-  },
-  {
-    id: "video6",
-    title: "Advanced TypeScript Patterns for React",
-    description: "Leveraging TypeScript to build type-safe React applications at scale.",
-    youtubeId: "dQw4w9WgXcQ", // Replace with actual YouTube ID
-    date: "October 7, 2023",
-    tags: ["TypeScript", "React"],
+    title: "Dashboard Example Walkthrough",
+    description: "A dashboard built with React, using an API",
+    youtubeId: "dPGirRuLWmw", // Replace with actual YouTube ID
+    tags: ["React", "Frontend Engineering", "API Integration", "Code Example"],
   },
 ]
 

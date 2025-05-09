@@ -15,7 +15,7 @@ export default function Home() {
             Frontend Enterprise <span className="text-primary">Expertise</span> in Action
           </h1>
           <p className="mt-6 text-xl text-muted-foreground max-w-2xl">
-            Detailed walkthroughs and code explanations for complex enterprise frontend solutions. Watch how I solve
+            Quick walkthroughs and code explanations for complex enterprise frontend solutions. Watch how I solve
             real-world challenges.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
@@ -47,8 +47,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Call to Action
-      <section className="py-16 bg-primary text-primary-foreground px-4">
+      {/* Call to Action */}
+      {/* <section className="py-16 bg-primary text-primary-foreground px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to level up your frontend skills?</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
@@ -60,7 +60,8 @@ export default function Home() {
             </a>
           </Button>
         </div>
-      </section> */}
+      </section>
+      */}
     </div>
   )
 }

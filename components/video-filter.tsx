@@ -18,6 +18,12 @@ const tags = [
   { value: "design-systems", label: "Design Systems" },
   { value: "state-management", label: "State Management" },
   { value: "accessibility", label: "Accessibility" },
+  { value: "code-example", label: "Code Example" },
+  { value: "api-integration", label: "API Integration" },
+  { value: "component-library", label: "Component Library" },
+  { value: "frontend-engineering", label: "Frontend Engineering" },
+  { value: "enterprise-architecture", label: "Enterprise Architecture" },
+  { value: "design-system", label: "Design System" },
 ]
 
 export function VideoFilter() {

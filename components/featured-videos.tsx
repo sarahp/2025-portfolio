@@ -30,6 +30,13 @@ const featuredVideos = [
     youtubeId: "byLllqyAOq4", // Replace with actual YouTube ID
     tags: ["React", "CHOP", "Design System", "Frontend Engineering", "Component Library"],
   },
+  {
+    id: "video4",
+    title: "Dashboard Example Walkthrough",
+    description: "A dashboard built with React, using an API",
+    youtubeId: "dPGirRuLWmw", // Replace with actual YouTube ID
+    tags: ["React", "Frontend Engineering", "API Integration", "Code Example"],
+  },
 ]
 
 export default function FeaturedVideos() {
