@@ -10,8 +10,6 @@ export default function VideosPage() {
         performance optimization, and enterprise architecture.
       </p>
 
-      <VideoFilter />
-
       <div className="mt-8">
         <VideoGrid />
       </div>

@@ -10,7 +10,7 @@ export default function AboutPage() {
         <div className="w-full md:w-1/3 flex justify-center">
           <div className="relative w-64 h-64 rounded-full overflow-hidden">
             <Image
-              src="/placeholder.svg?height=256&width=256"
+              src="/headshot_2025.png"
               alt="Profile picture"
               fill
               className="object-cover"

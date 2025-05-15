@@ -11,10 +11,10 @@ import { YouTubeEmbed } from "./youtube-embed"
 const featuredVideos = [
   {
     id: "video1",
-    title: "Building a To Do App with React",
-    description: "A basic To Do app built with React, Next.js, and Tailwind CSS.",
-    youtubeId: "4WQy931nKjw", // Replace with actual YouTube ID
-    tags: ["React", "To Do App", "Frontend Engineering", "Code Example"],
+    title: "CHOP Map Component Walkthrough",
+    description: "A walkthrough of the CHOP Map component.",
+    youtubeId: "byLllqyAOq4", // Replace with actual YouTube ID
+    tags: ["React", "CHOP", "Design System", "Frontend Engineering", "Component Library"],
   },
   {
     id: "video2",
@@ -25,18 +25,18 @@ const featuredVideos = [
   },
   {
     id: "video3",
-    title: "CHOP Map Component Walkthrough",
-    description: "A walkthrough of the CHOP Map component.",
-    youtubeId: "byLllqyAOq4", // Replace with actual YouTube ID
-    tags: ["React", "CHOP", "Design System", "Frontend Engineering", "Component Library"],
-  },
-  {
-    id: "video4",
     title: "Dashboard Example Walkthrough",
     description: "A dashboard built with React, using an API",
     youtubeId: "dPGirRuLWmw", // Replace with actual YouTube ID
     tags: ["React", "Frontend Engineering", "API Integration", "Code Example"],
   },
+  {
+    id: "video4",
+    title: "CHOP Header and Footer Walkthrough",
+    description: "A walkthrough of the CHOP Header and Footer components.",
+    youtubeId: "FYFD9638KFE", // Replace with actual YouTube ID
+    tags: ["lit", "design-system", "frontend-engineering", "component-library"],
+  }
 ]
 
 export default function FeaturedVideos() {

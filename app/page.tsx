@@ -34,7 +34,7 @@ export default function Home() {
       {/* Featured Videos Section */}
       <section className="py-16 bg-muted/40 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold mb-12 text-center">Featured Walkthroughs</h2>
+          <h2 className="text-3xl font-bold mb-12 text-left">Featured Walkthroughs</h2>
           <FeaturedVideos />
         </div>
       </section>
@@ -42,7 +42,7 @@ export default function Home() {
       {/* Project Showcase */}
       <section className="py-16 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold mb-12 text-center">Enterprise Projects</h2>
+          <h2 className="text-3xl font-bold mb-12 text-left">Enterprise Projects</h2>
           <ProjectShowcase />
         </div>
       </section>

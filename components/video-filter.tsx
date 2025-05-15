@@ -11,22 +11,18 @@ import { cn } from "@/lib/utils"
 const tags = [
   { value: "all", label: "All Videos" },
   { value: "react", label: "React" },
-  { value: "nextjs", label: "Next.js" },
-  { value: "typescript", label: "TypeScript" },
-  { value: "performance", label: "Performance" },
-  { value: "architecture", label: "Architecture" },
-  { value: "design-systems", label: "Design Systems" },
-  { value: "state-management", label: "State Management" },
-  { value: "accessibility", label: "Accessibility" },
-  { value: "code-example", label: "Code Example" },
-  { value: "api-integration", label: "API Integration" },
-  { value: "component-library", label: "Component Library" },
   { value: "frontend-engineering", label: "Frontend Engineering" },
-  { value: "enterprise-architecture", label: "Enterprise Architecture" },
   { value: "design-system", label: "Design System" },
+  { value: "component-library", label: "Component Library" },
+  { value: "api-integration", label: "API Integration" },
+  { value: "code-example", label: "Code Example" },
 ]
 
-export function VideoFilter() {
+interface VideoFilterProps {
+  onFilterChange: (tag: string) => void
+}
+
+export function VideoFilter({ onFilterChange }: VideoFilterProps) {
   const [open, setOpen] = useState(false)
   const [value, setValue] = useState("all")
 
@@ -52,6 +48,7 @@ export function VideoFilter() {
                       value={tag.value}
                       onSelect={(currentValue) => {
                         setValue(currentValue === value ? "" : currentValue)
+                        onFilterChange(currentValue === value ? "all" : currentValue)
                         setOpen(false)
                       }}
                     >
