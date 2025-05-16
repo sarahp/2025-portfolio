@@ -62,7 +62,7 @@ export default function RootLayout({
               <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:h-16">
                   <p className="text-sm text-muted-foreground">
-                    © {new Date().getFullYear()} Your Name. All rights reserved.
+                    © {new Date().getFullYear()} Sarah Peony. All rights reserved.
                   </p>
                   <nav className="flex gap-6">
                     <Link href="/videos" className="text-sm text-muted-foreground hover:text-foreground">

@@ -10,7 +10,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="py-20 md:py-28 px-4">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             Frontend Enterprise <span className="text-primary">Expertise</span> in Action
           </h1>
