@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { useState } from "react"
-import { Send } from "lucide-react"
+import { Send, Youtube, Github, Linkedin } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -68,18 +68,27 @@ export default function ContactPage() {
 
           <div className="space-y-6">
             <div>
+              <h3 className="text-lg font-medium mb-2">Location</h3>
+              <p className="text-muted-foreground">Philadelphia, PA</p>
+            </div>
+            <div>
               <h3 className="text-lg font-medium mb-2">Email</h3>
               <p className="text-muted-foreground">me [at] sarahp.studio</p>
             </div>
-
             <div>
-              <h3 className="text-lg font-medium mb-2">YouTube</h3>
-              <p className="text-muted-foreground">youtube.com/@uniquelysarahp</p>
+              <a href="https://www.linkedin.com/in/sarahpeony/" target="_blank" rel="noopener noreferrer">
+                <h3 className="text-lg font-medium mb-2">LinkedIn <Linkedin className="inline-block ml-1 h-5 w-5" /></h3>
+              </a>
             </div>
-
             <div>
-              <h3 className="text-lg font-medium mb-2">Location</h3>
-              <p className="text-muted-foreground">Philadelphia, PA</p>
+              <a href="https://github.com/sarahp" target="_blank" rel="noopener noreferrer">
+                <h3 className="text-lg font-medium mb-2">GitHub <Github className="inline-block ml-1 h-5 w-5" /></h3>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@uniquelysarahp" target="_blank" rel="noopener noreferrer">
+                <h3 className="text-lg font-medium mb-2">YouTube <Youtube className="inline-block ml-1 h-5 w-5" /></h3>
+              </a>
             </div>
           </div>
         </div>
