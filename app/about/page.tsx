@@ -35,7 +35,7 @@ export default function AboutPage() {
             </p>
 
             <h3>Expertise</h3>
-            <ul>
+            <ul className="list-disc list-inside">
               <li>React & Next.js architecture for large applications</li>
               <li>State management patterns and performance optimization</li>
               <li>Design systems implementation and maintenance</li>
