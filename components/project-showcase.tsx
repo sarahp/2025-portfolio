@@ -11,7 +11,7 @@ const projects = [
     description: "A comprehensive dashboard for monitoring business metrics with real-time data visualization.",
     image: "/dashboard.png",
     tags: ["React", "TypeScript", "Recharts"],
-    videoUrl: "https://youtube.com/watch?v=example1",
+    websiteUrl: "https://perpay-dashboard-ecru.vercel.app/",
     githubUrl: "https://github.com/sarahp/enterprise-dashboard",
   },
   {
