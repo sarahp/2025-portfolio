@@ -42,13 +42,6 @@ export default function AboutPage() {
               <li>Validation logic and accessibility for large form systems</li>
               <li>DevOps-aware frontend workflows using Docker, Webpack, and CI/CD</li>
             </ul>
-
-            <h3>Why I Create Content</h3>
-            <p>
-              I create content to share what I wish I’d had earlier in my career—real talk about debugging, architecture trade-offs,
-              and the human side of engineering. Whether you’re soloing your first app or scaling an enterprise tool, I want to
-              demystify the process and build community along the way.
-            </p>
           </div>
 
 
