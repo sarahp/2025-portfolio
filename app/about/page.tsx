@@ -52,19 +52,19 @@ export default function AboutPage() {
 
           <div className="mt-8 flex gap-4">
             <Button variant="outline" size="icon" asChild>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/sarahp" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>
             </Button>
             <Button variant="outline" size="icon" asChild>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/sarahpeony/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </a>
             </Button>
             <Button variant="outline" size="icon" asChild>
-              <a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener noreferrer">
+              <a href="https://youtube.com/@uniquelysarahp" target="_blank" rel="noopener noreferrer">
                 <Youtube className="h-5 w-5" />
                 <span className="sr-only">YouTube</span>
               </a>
