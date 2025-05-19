@@ -2,7 +2,17 @@ import { NextResponse } from "next/server"
 import { PrismaClient } from '@/lib/generated/prisma'
 import { withAccelerate } from '@prisma/extension-accelerate'
 
-const prisma = new PrismaClient().$extends(withAccelerate())
+const prismaClientSingleton = () => {
+  return new PrismaClient().$extends(withAccelerate())
+}
+
+declare global {
+  var prisma: undefined | ReturnType<typeof prismaClientSingleton>
+}
+
+const prisma = globalThis.prisma ?? prismaClientSingleton()
+
+if (process.env.NODE_ENV !== 'production') globalThis.prisma = prisma
 
 export async function POST(request: Request) {
   try {
