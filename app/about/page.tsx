@@ -28,13 +28,15 @@ export default function AboutPage() {
               CMS platforms to build scalable, accessible web applications. From leading frontend architecture at agencies to
               launching my own AI-enhanced product, I specialize in transforming complex user needs into elegant, maintainable solutions.
             </p>
+            <br />
 
             <p>
               My YouTube channel shares practical insights from my career—from mentoring junior engineers to building enterprise-grade
               design systems. I walk through my creations and share insights into the latest tools for frontend development.
             </p>
+            <br />
 
-            <h3>Expertise</h3>
+            <h2 className="text-2xl font-bold mb-4">Expertise</h2>
             <ul className="list-disc list-inside">
               <li>React, Next.js, and Vue for enterprise-scale applications</li>
               <li>State management with Recoil, Context API, and custom hooks</li>
