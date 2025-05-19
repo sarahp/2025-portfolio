@@ -22,33 +22,35 @@ export default function AboutPage() {
         <div className="w-full md:w-2/3">
           <h1 className="text-4xl font-bold mb-4">About Me</h1>
           <p className="text-xl mb-6">Frontend Engineer specializing in building scalable enterprise applications</p>
-
           <div className="prose dark:prose-invert max-w-none">
             <p>
-              With over 8 years of experience in frontend development, I've worked with Fortune 500 companies to build
-              complex, high-performance web applications that scale to millions of users.
+              With over a decade of experience in software development, I’ve worked across healthcare, finance, and enterprise
+              CMS platforms to build scalable, accessible web applications. From leading frontend architecture at agencies to
+              launching my own AI-enhanced product, I specialize in transforming complex user needs into elegant, maintainable solutions.
             </p>
 
             <p>
-              My YouTube channel is dedicated to sharing the knowledge I've gained working on enterprise projects,
-              breaking down complex concepts into understandable walkthroughs.
+              My YouTube channel shares practical insights from my career—from mentoring junior engineers to building enterprise-grade
+              design systems. I walk through my creations and share insights into the latest tools for frontend development.
             </p>
 
             <h3>Expertise</h3>
             <ul className="list-disc list-inside">
-              <li>React & Next.js architecture for large applications</li>
-              <li>State management patterns and performance optimization</li>
-              <li>Design systems implementation and maintenance</li>
-              <li>Frontend testing strategies for enterprise applications</li>
-              <li>CI/CD and deployment workflows</li>
+              <li>React, Next.js, and Vue for enterprise-scale applications</li>
+              <li>State management with Recoil, Context API, and custom hooks</li>
+              <li>Design system strategy and component libraries (Lit, Storybook)</li>
+              <li>Validation logic and accessibility for large form systems</li>
+              <li>DevOps-aware frontend workflows using Docker, Webpack, and CI/CD</li>
             </ul>
 
             <h3>Why I Create Content</h3>
             <p>
-              I believe in sharing knowledge and helping other developers level up their skills. My goal is to bridge
-              the gap between tutorial-level content and the real-world challenges of enterprise frontend development.
+              I create content to share what I wish I’d had earlier in my career—real talk about debugging, architecture trade-offs,
+              and the human side of engineering. Whether you’re soloing your first app or scaling an enterprise tool, I want to
+              demystify the process and build community along the way.
             </p>
           </div>
+
 
           <div className="mt-8 flex gap-4">
             <Button variant="outline" size="icon" asChild>
