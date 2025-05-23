@@ -35,7 +35,7 @@ const videos = [
     id: "video4",
     title: "Dashboard Example Walkthrough",
     description: "A dashboard built with React, using Recharts",
-    youtubeId: "dPGirRuLWmw", // Replace with actual YouTube ID
+    youtubeId: "KkCcqRpaDic", // Replace with actual YouTube ID
     tags: ["react", "frontend-engineering", "api-integration", "code-example"],
     link: "https://perpay-dashboard-ecru.vercel.app/",
     github: "https://github.com/sarahp/enterprise-dashboard"

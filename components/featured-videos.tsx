@@ -27,7 +27,7 @@ const featuredVideos = [
     id: "video3",
     title: "Dashboard Example Walkthrough",
     description: "A dashboard built with React, using an API",
-    youtubeId: "dPGirRuLWmw", // Replace with actual YouTube ID
+    youtubeId: "KkCcqRpaDic", // Replace with actual YouTube ID
     tags: ["React", "Frontend Engineering", "API Integration", "Code Example"],
   },
   {
