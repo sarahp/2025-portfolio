@@ -6,9 +6,9 @@ import { Button } from "@/components/ui/button"
 export default function AboutPage() {
   return (
     <div className="container mx-auto max-w-4xl py-12 px-4">
-      <div className="flex flex-col md:flex-row gap-12 items-start">
+      <div className="flex flex-col md:flex-row gap-12 items-start border-2 border-[hsl(var(--border))] bg-[hsl(var(--card))] shadow-inner p-4 text-sm">
         <div className="w-full md:w-1/3 flex justify-center">
-          <div className="relative w-64 h-64 rounded-full overflow-hidden">
+          <div className="relative w-64 h-64 overflow-hidden">
             <Image
               src="/headshot_2025.png"
               alt="Profile picture"
@@ -20,7 +20,7 @@ export default function AboutPage() {
         </div>
 
         <div className="w-full md:w-2/3">
-          <h1 className="text-4xl font-bold mb-4">About Me</h1>
+          <h1 className="text-4xl font-bold font-mono mb-4">About Me</h1>
           <p className="text-xl mb-6">Frontend Engineer specializing in building scalable enterprise applications</p>
           <div className="prose dark:prose-invert max-w-none">
             <p>
@@ -36,7 +36,7 @@ export default function AboutPage() {
             </p>
             <br />
 
-            <h2 className="text-2xl font-bold mb-4">Expertise</h2>
+            <h2 className="text-2xl font-bold font-mono mb-4">Expertise</h2>
             <ul className="list-disc list-inside">
               <li>React, Next.js, and Vue for enterprise-scale applications</li>
               <li>State management with Recoil, Context API, and custom hooks</li>

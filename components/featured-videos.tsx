@@ -43,13 +43,13 @@ export default function FeaturedVideos() {
   const [activeVideo, setActiveVideo] = useState(featuredVideos[0])
 
   return (
-    <div className="grid md:grid-cols-3 gap-8">
+    <div className="grid md:grid-cols-3 gap-8 border-2 border-[hsl(var(--border))] bg-[hsl(var(--card))] shadow-inner p-4 text-sm">
       <div className="md:col-span-2">
         <div className="aspect-video rounded-lg overflow-hidden bg-black">
           <YouTubeEmbed videoId={activeVideo.youtubeId} title={activeVideo.title} />
         </div>
         <div className="mt-4">
-          <h3 className="text-xl font-semibold">{activeVideo.title}</h3>
+          <h3 className="text-xl font-semibold font-mono">{activeVideo.title}</h3>
           <p className="text-muted-foreground mt-2">{activeVideo.description}</p>
           <div className="flex gap-2 mt-3">
             {activeVideo.tags.map((tag) => (

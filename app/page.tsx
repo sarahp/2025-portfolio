@@ -11,7 +11,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="py-20 md:py-28 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+          <h1 className="text-4xl md:text-6xl font-mono font-bold tracking-tight">
             Frontend Enterprise <span className="text-primary">Expertise</span> in Action
           </h1>
           <p className="mt-6 text-xl text-muted-foreground max-w-2xl">
@@ -34,7 +34,7 @@ export default function Home() {
       {/* Featured Videos Section */}
       <section className="py-16 bg-muted/40 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold mb-12 text-left">Featured Walkthroughs</h2>
+          <h2 className="text-3xl font-bold font-mono mb-12 text-left">Featured Walkthroughs</h2>
           <FeaturedVideos />
         </div>
       </section>
@@ -42,7 +42,7 @@ export default function Home() {
       {/* Project Showcase */}
       <section className="py-16 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold mb-12 text-left">Enterprise Projects</h2>
+          <h2 className="text-3xl font-bold font-mono mb-12 text-left">Enterprise Projects</h2>
           <ProjectShowcase />
         </div>
       </section>
