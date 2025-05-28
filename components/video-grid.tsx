@@ -21,7 +21,7 @@ const videos = [
     description: "A walkthrough of the Tufts Medicine Basic Card component.",
     youtubeId: "XOrown_U1sI", // Replace with actual YouTube ID
     tags: ["lit", "design-system", "frontend-engineering", "component-library"],
-    link: "https://todo-rose-chi.vercel.app/",
+    link: "https://www.tuftsmedicine.org/get-care/request-appointment",
   },
   {
     id: "video3",
@@ -29,7 +29,7 @@ const videos = [
     description: "A walkthrough of the CHOP Map component.",
     youtubeId: "byLllqyAOq4", // Replace with actual YouTube ID
     tags: ["lit", "design-system", "frontend-engineering", "component-library"],
-    link: "https://todo-rose-chi.vercel.app/",
+    link: "https://www.chop.edu/locations/search?field_type_location=All&specialty=&latlon%5Bdistance%5D%5Bfrom%5D=80.4672&latlon%5Bvalue%5D=19130",
   },
   {
     id: "video4",
@@ -46,6 +46,7 @@ const videos = [
     description: "A walkthrough of the CHOP Card component.",
     youtubeId: "lDA6BVVXqys", // Replace with actual YouTube ID
     tags: ["lit", "design-system", "frontend-engineering", "component-library"],
+    link: "https://www.chop.edu/"
   },
   {
     id: "video6",
@@ -53,6 +54,7 @@ const videos = [
     description: "A walkthrough of the CHOP Header and Footer components.",
     youtubeId: "FYFD9638KFE", // Replace with actual YouTube ID
     tags: ["lit", "design-system", "frontend-engineering", "component-library"],
+    link: "https://www.chop.edu/"
   },
   {
     id: "video7",
@@ -67,6 +69,7 @@ const videos = [
     description: "A walkthrough of the CHOP CSS Variables.",
     youtubeId: "tJLOBccevWU", // Replace with actual YouTube ID
     tags: ["lit", "design-system", "frontend-engineering", "code-example"],
+    link: "https://www.chop.edu/locations/primary-care-chop-campus"
   }
 ]
 
@@ -87,17 +90,19 @@ export function VideoGrid() {
               <YouTubeEmbed videoId={video.youtubeId} title={video.title} />
             </div>
             <div className="flex flex-row gap-2 pt-2 pb-2">
-              <a href={video.link} target="_blank" rel="noopener noreferrer">
-                <Button variant="outline">View website</Button>
-              </a>
-              {video.github ? (
+              {video.link && (
+                <a href={video.link} target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline">View website</Button>
+                </a>
+              )}
+              {video.github && (
                 <a href={video.github} target="_blank" rel="noopener noreferrer">
                   <Button variant="outline">View Code</Button>
                 </a>
-              ) : null}
+              )}
             </div>
             <div className="mt-4">
-              <h3 className="text-xl font-semibold">{video.title}</h3>
+              <h3 className="text-xl font-semibold font-mono">{video.title}</h3>
               <p className="text-muted-foreground mt-2">{video.description}</p>
               <div className="flex flex-wrap gap-2 mt-3">
                 {video.tags.map((tag) => (
