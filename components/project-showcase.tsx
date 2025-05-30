@@ -43,7 +43,7 @@ export default function ProjectShowcase() {
             <Image src={project.image || "/placeholder.svg"} alt={project.title} fill className="object-cover" />
           </div>
           <CardContent className="flex-1 p-6">
-            <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+            <h3 className="text-xl font-semibold font-mono mb-2">{project.title}</h3>
             <p className="text-muted-foreground mb-4">{project.description}</p>
             <div className="flex flex-wrap gap-2 mt-auto">
               {project.tags.map((tag) => (
